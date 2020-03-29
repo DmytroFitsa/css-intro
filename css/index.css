@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+}
+p {
+    color: rgba(10,10,10,0.5);
+}
+#chosen {/*id*/
+    border: 1px solid brown;
+}
+.foo {/*class*/
+    text-transform: uppercase;
+}
+/* {/*для всіх елем
+    background-color: gray;
+}*/
+p::first-letter {
+    font-size: 2rem;
+}
+p:hover {/*затінює елем при русі мишки*/
+    background-color: gray; 
+}
+div p {
+    font-weight: bold;
+}
